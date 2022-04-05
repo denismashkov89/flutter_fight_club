@@ -151,10 +151,10 @@ class FightPageState extends State<FightPage>
       return "You won";
     } else {
       final String first = enemyLoseLife
-          ? "Your hit enemy's ${attakingBodyPart!.name!.toLowerCase()}."
+          ? "Your hit enemy's ${attakingBodyPart?.name.toLowerCase()}."
           : "Your attak was blocked.";
       final String second = youLoseLife
-          ? "Enemy hit your. ${whatEnemyAttacks!.name!.toLowerCase()}."
+          ? "Enemy hit your. ${whatEnemyAttacks.name.toLowerCase()}."
           : "Enemy's attak was blocked.";
       return "$first\n$second";
     }
