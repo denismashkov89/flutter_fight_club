@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_fight_club/main.dart';
-import 'package:flutter_fight_club/pages/main_page.dart';
+import 'package:flutter_fight_club/pages/main_pages.dart';
 import 'package:flutter_fight_club/pages/statistics_page.dart';
 import 'package:flutter_fight_club/widgets/secondary_action_button.dart';
 import 'package:flutter_test/flutter_test.dart';
